@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 0.8rem;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 98.5%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+
+.centerNav img{
+    height: 50px;
+    width: auto;
+}
+
+.leftNav{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.rightNav{
+        width: 80px;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+}
+
+.leftNav img{
+    height: 18px;
+    width: 18px;
+}
+
+.rightNav img{
+    filter: invert(100%);
+    height: 20px;
+    width: 20px;
+}
+
+/* alive page 1 styling  */
+
+#page1{
+    height: 100vh;
+    width: auto;
+    background: url(https://www.zoya.in/on/demandware.static/-/Sites-Zoya-Library/default/dwc2866d68/images/home/Alive2_d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page2{
+    height: 100vh;
+    width: auto;
+    display: flex;
+}
+
+#page2Left{
+    /* background-color: rgb(187, 57, 14); */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+#page2right{
+    /* background-color: rgb(24, 147, 147); */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 0 30px;
+}
+
+#page2right #img1{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0;
+}
+
+#page2right #img2{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    opacity: 0.7;
+    filter: brightness(70%);
+}
+
+#page2right #img3{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: brightness(40%);
+}
+#page2imageslider{
+    display: flex;
+    align-items: center;
+    gap: -5;
+}
+
+#page3{
+    height: 90vh;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3container{
+    height: 80%;
+    width: 80%;
+        /* background-color: blueviolet; */
+    text-align: center;
+}
+
+#page3 div h5{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 3%;
+    color: #A8784C;
+}
+
+
+#discoverContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#discoverContainer h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#discoverImages{
+    display: flex;
+    gap: 4rem;
+
+}
+#discoverImages div img{
+    height: 312px;
+    width: 312px;
+}
+#discoverImages div h1{
+    font-weight: 100;
+    font-size: large;
+    margin-top: 15px;
+}
+
+/* page 4 styling starts here  */
+
+.page4{
+    height: 90vh;
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.page4container img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#page6{
+    margin-top: 20%;
+}
+
+#page7{
+    margin-top: 12%;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page7container{
+    height: 95%;
+    width: 70%;
+    text-align: center;
+}
+
+.page7container h6{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.page7imges{
+    margin-top: 3%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.page7imges .left{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.page7imges .left img{
+    height: 49%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.page7imges .middle{
+    height: 100%;
+    width: 32%;
+}
+.page7imges .middle IMG{
+    height: 100%;
+    width: 100%;
+}
+.page7imges .right{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.page7imges .right img{
+    height: 49%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* page 8 styling  */
+#page8{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+}
+
+#page8 h6{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+.page8container{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.page8container .left{
+    height: 100%;
+    width: 48%;
+}
+.page8container .left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page8container .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page8container .right{
+    height: 100%;
+    width: 48%;
+    background-color: aquamarine;
+}
+
+.page8container .right p{
+    font-size: 1.3rem ;
+    font-weight: 100;
+}
+.page8container .left p{
+    font-size: 1.3rem ;
+    font-weight: 100;
+}
+
+/* page 9 styling  */
+#page9{
+    margin-top: 8%;
+    height: 150vh;
+    width: 100%;
+    text-align: center;
+}
+
+#page9 p{
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+#page9 img{
+    margin-top: 3%;
+    height: 90%;
+    width: 100%;
+}
+
+/* stayConnected styling  */
+#stayConnected{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.subcontainer div{
+    text-align: center;
+}
+
+.subcontainer div h2{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.p1{
+    font-size: 1rem;
+}
+.p2{
+    font-size: 1rem;
+}
+.p2 span{
+    color: #C49884;
+    text-decoration: underline;
+}
+
+.subcontainer div input{
+    height: 5vh;
+    width: 90%;
+    margin: 1.5rem 0;
+    border: 1px solid rgb(219, 219, 230);
+    padding: 2px 10px;
+}
+
+
+.subcontainer div input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.subcontainer div button{
+    margin-top: 1.2rem;
+    height: 6vh;
+    width: 60%;
+    background-color: #C49884;
+    border: 0;
+    color: white;
+}
+
+
+
+
+/* footer styling here  */
+footer{
+    height: 80vh;
+    width: 100%;
+    background-color: #C49884;
+}
+
+footer .logo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    margin-top: 5%;
+    height: 50%;
+    width: auto;
+}
+
+.footercontainer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    padding: 0 8%;
+}
+
+
+.footercontainer div h4{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-bottom: 1rem;
+}
+
+
+.footercontainer div p{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.footercontainer .part1,.part2,.part3,.part4{
+    width: 20%;
+    height: 300px;
+    color: #fff;
+    /* background-color: red; */
+}
+
+
